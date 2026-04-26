@@ -5,10 +5,14 @@ Aspiring Data Analyst | Former Head Barista | Right-handed Southpaw Fighter
 Sydney, Australia | brianphu2310@gmail.com
 
 LinkedIn: www.linkedin.com/in/brian-phu-data-analysta55353390
+
 GitHub: [github.com/brianphu2310](https://github.com/brianphu2310)
+
 Tableau: [public.tableau.com/app/profile/brian.ma5935](https://public.tableau.com/app/profile/brian.ma5935/vizzes)
+
 Kaggle: [kaggle.com/brianphu2310
 ](https://www.kaggle.com/brianphu)
+
 ---
 
 Coffee Recommender Engine
