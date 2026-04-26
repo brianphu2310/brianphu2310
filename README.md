@@ -40,7 +40,7 @@ Tools: PostgreSQL, Tableau
 Insight: Built a tool where users input stance, handedness, weight class. Returns top 5 style-matched fighters with personalized learning tips.
 View Project: [[github.com/brianphu2310/UFC_STANCE_HANDEDNESS](https://github.com/brianphu2310/UFC_STANCE_HANDEDNESS)](https://github.com/brianphu2310/Fighter-Matchmaker-Tool)
 
-Live Demo: [public.tableau.com/views/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)
+Live Demo: [[public.tableau.com/views/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)](https://github.com/brianphu2310/Fighter-Matchmaker-Tool)
 
 ---
 
