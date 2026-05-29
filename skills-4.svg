@@ -1,0 +1,22 @@
+<svg width="860" height="76" viewBox="0 0 860 76" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="76" fill="#F1EFE8" rx="4" stroke="#9FE1CB" stroke-width="1"/>
+  <line x1="215" y1="0" x2="215" y2="76" stroke="#9FE1CB" stroke-width="0.8"/>
+  <line x1="430" y1="0" x2="430" y2="76" stroke="#9FE1CB" stroke-width="0.8"/>
+  <line x1="645" y1="0" x2="645" y2="76" stroke="#9FE1CB" stroke-width="0.8"/>
+
+  <text x="20" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">DATABASES</text>
+  <text x="20" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">PostgreSQL</text>
+  <text x="20" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">SQL · Data modeling</text>
+
+  <text x="232" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">VISUALIZATION</text>
+  <text x="232" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">Tableau</text>
+  <text x="232" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">Matplotlib · Seaborn</text>
+
+  <text x="447" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">ANALYSIS</text>
+  <text x="447" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">Python</text>
+  <text x="447" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">Pandas · NumPy · Statistics</text>
+
+  <text x="662" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">METHODS</text>
+  <text x="662" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">OODA Loop</text>
+  <text x="662" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">HHI · Web Scraping</text>
+</svg>
