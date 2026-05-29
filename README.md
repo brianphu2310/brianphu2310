@@ -1,169 +1,487 @@
-<!-- HEADER BANNER -->
-<h1 align="center">👋 Hi, I'm Brian Phu</h1>
-<h3 align="center">Data Analyst | Former Barista | Martial Artist</h3>
-<h4 align="center">📍 Sydney, Australia</h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brian Phu — Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
 
-<p align="center">
-  <a href="mailto:brianphu2310@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/brianphu2310/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://github.com/brianphu2310"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+  :root{
+    --teal-dark:#0F6E56;
+    --teal-mid:#1D9E75;
+    --teal-light:#5DCAA5;
+    --teal-pale:#9FE1CB;
+    --teal-bg:#E1F5EE;
+    --slate:#2C2C2A;
+    --slate-mid:#5F5E5A;
+    --slate-light:#B4B2A9;
+    --cream:#F1EFE8;
+    --white:#ffffff;
+  }
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=brianphu2310&label=Profile%20Views&color=0e75b6&style=flat">
-</p>
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Sora',sans-serif;
+    background:var(--cream);
+    color:var(--slate);
+    line-height:1.6;
+    min-height:100vh;
+  }
 
----
+  .page{max-width:900px;margin:0 auto;padding:3rem 2rem}
 
-## 🧠 About Me
+  /* HEADER */
+  .header{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:2rem;
+    align-items:end;
+    border-bottom:2px solid var(--teal-mid);
+    padding-bottom:2rem;
+    margin-bottom:2.5rem;
+  }
+  .label-sm{
+    font-size:11px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--teal-mid);
+    font-weight:500;
+    margin-bottom:.5rem;
+  }
+  .name{
+    font-family:'DM Serif Display',serif;
+    font-size:3.8rem;
+    line-height:1.05;
+    color:var(--slate);
+    margin-bottom:.4rem;
+  }
+  .name em{color:var(--teal-dark);font-style:normal}
+  .tagline{
+    font-size:.95rem;
+    color:var(--slate-mid);
+    font-weight:300;
+    max-width:400px;
+    line-height:1.7;
+  }
+  .header-meta{
+    text-align:right;
+    font-size:.8rem;
+    color:var(--slate-light);
+    line-height:2.2;
+  }
+  .header-meta a{
+    display:block;
+    color:var(--teal-dark);
+    text-decoration:none;
+    font-weight:500;
+    font-size:.85rem;
+    transition:color .15s;
+  }
+  .header-meta a:hover{color:var(--teal-mid)}
 
-I turn messy data into decisions. My approach combines **structured thinking** (OODA framework), **end-to-end execution** (from scraping to deployment), and real-world problem solving.
+  /* ABOUT STRIP */
+  .about{
+    background:var(--teal-dark);
+    color:var(--teal-bg);
+    border-radius:3px;
+    padding:1.75rem 2rem;
+    margin-bottom:2.5rem;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1.5rem;
+  }
+  .about-item .num{
+    font-family:'DM Serif Display',serif;
+    font-size:2.4rem;
+    color:var(--teal-pale);
+    line-height:1;
+    margin-bottom:.3rem;
+  }
+  .about-item .desc{
+    font-size:.78rem;
+    color:var(--teal-pale);
+    opacity:.7;
+    font-weight:300;
+    line-height:1.5;
+  }
+  .about-divider{
+    border-left:1px solid rgba(255,255,255,.15);
+    padding-left:1.5rem;
+  }
 
-- ☕ **Former Barista** → Built a coffee recommender system because customer questions needed data, not just intuition
-- 🥊 **Kickboxing / Muay Thai** → Analyzed 117 UFC fighters to understand stance × handedness interaction
-- 📊 **Supply Chain Geek** → Compared Nike vs Adidas manufacturing across 11 countries
-- 🎯 **Philosophy:** If I can't measure it, I don't trust my opinion on it
+  /* TICKER */
+  .ticker-wrap{
+    overflow:hidden;
+    border-top:1px solid var(--teal-pale);
+    border-bottom:1px solid var(--teal-pale);
+    padding:.55rem 0;
+    margin-bottom:2.5rem;
+    background:var(--white);
+  }
+  .ticker{
+    display:flex;
+    gap:3rem;
+    width:max-content;
+    animation:ticker 24s linear infinite;
+  }
+  @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker-item{
+    font-size:.72rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--slate-light);
+    white-space:nowrap;
+  }
+  .ticker-item.hi{color:var(--teal-mid);font-weight:600}
 
----
+  /* SECTION LABEL */
+  .section-label{
+    font-size:11px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--teal-mid);
+    font-weight:500;
+    margin-bottom:1rem;
+    display:flex;
+    align-items:center;
+    gap:.75rem;
+  }
+  .section-label::after{
+    content:'';flex:1;height:1px;background:var(--teal-pale);
+  }
 
-## 📊 Featured Projects
+  /* PROJECT CARDS */
+  .projects{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1px;
+    background:var(--slate-light);
+    border:1px solid var(--slate-light);
+    margin-bottom:2.5rem;
+  }
+  .proj-card{
+    background:var(--white);
+    padding:1.5rem 1.25rem;
+    display:flex;
+    flex-direction:column;
+    gap:.75rem;
+    text-decoration:none;
+    color:inherit;
+    transition:background .18s;
+  }
+  .proj-card:hover{background:var(--teal-bg)}
+  .proj-tag{
+    font-size:10px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--teal-dark);
+    font-weight:600;
+    background:var(--teal-bg);
+    padding:3px 8px;
+    width:fit-content;
+    border-radius:2px;
+  }
+  .proj-card:hover .proj-tag{background:var(--teal-pale)}
+  .proj-title{
+    font-family:'DM Serif Display',serif;
+    font-size:1.15rem;
+    color:var(--slate);
+    line-height:1.25;
+  }
+  .proj-desc{
+    font-size:.78rem;
+    color:var(--slate-mid);
+    line-height:1.65;
+    font-weight:300;
+    flex:1;
+  }
+  .proj-finding{
+    font-size:.73rem;
+    color:var(--teal-dark);
+    border-left:2px solid var(--teal-mid);
+    padding-left:.6rem;
+    font-style:italic;
+    line-height:1.55;
+  }
+  .proj-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:4px;
+  }
+  .stack-pill{
+    font-family:'DM Mono',monospace;
+    font-size:10px;
+    color:var(--slate-mid);
+    border:1px solid var(--slate-light);
+    padding:2px 7px;
+    border-radius:2px;
+  }
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏭 Nike vs Adidas — Global Supply Chain</h3>
-      <p><em>PostgreSQL · Tableau · OODA Framework</em></p>
-      <p>Compared 42 factories across 11 countries. Identified cost advantages, concentration risk (HHI analysis), and strategic divergence in manufacturing footprint.</p>
-      <p><strong>Key finding:</strong> Adidas maintains domestic German factories (cost premium) while Nike has zero European production — deliberate strategic divergence.</p>
-      <p>
-        <a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-FACTORIES-STRATERGY">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-        </a>
-        <a href="#">
-          <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white">
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>☕ Head Barista — Coffee Intelligence</h3>
-      <p><em>BeautifulSoup · Pandas · Supabase · Streamlit</em></p>
-      <p>Scraped 80+ brewing methods → Cleaned → PostgreSQL → Deployed recommendation engine. Uses Euclidean distance to match user preferences.</p>
-      <p><strong>Key finding:</strong> Acidity and body have -0.71 correlation — explains why French Press lovers rarely enjoy V60. It's physics, not taste.</p>
-      <p>
-        <a href="https://github.com/brianphu2310/Head-Barista-Coffee-Intelligence">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-        </a>
-        <a href="#">
-          <img src="https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🥊 UFC Stance & Handedness Intelligence</h3>
-      <p><em>BeautifulSoup · SciPy · scikit-learn · Streamlit</em></p>
-      <p>Scraped 3 sources (UFCSTATS, Tapology, Sherdog) → 117 fighters. T-tests, Cohen's d, and KNN fighter recommender.</p>
-      <p><strong>Key finding:</strong> p = 0.07 (not sig.) but Cohen's d = 0.43 (practical advantage) — right-handed Southpaws win 4% more. Statistical ≠ practical significance matters.</p>
-      <p>
-        <a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-        </a>
-        <a href="#">
-          <img src="https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📌 More Coming Soon</h3>
-      <p><em>Always building...</em></p>
-      <p>Currently exploring:
-        <ul>
-          <li>Time-series forecasting for retail demand</li>
-          <li>dbt + BigQuery pipeline</li>
-          <li>ESG risk scoring for supply chains</li>
-        </ul>
-      </p>
-    </td>
-  </tr>
-</table>
+  /* PHILOSOPHY */
+  .philosophy{
+    border:1px solid var(--teal-pale);
+    padding:1.75rem 2rem;
+    margin-bottom:2.5rem;
+    position:relative;
+    background:var(--white);
+  }
+  .philosophy-quote{
+    font-family:'DM Serif Display',serif;
+    font-size:1.7rem;
+    color:var(--teal-dark);
+    line-height:1.35;
+    margin-bottom:.75rem;
+  }
+  .philosophy-sub{
+    font-size:.85rem;
+    color:var(--slate-mid);
+    font-weight:300;
+    max-width:560px;
+    line-height:1.75;
+  }
+  .philosophy-tag{
+    position:absolute;
+    top:-11px;
+    left:1.5rem;
+    background:var(--cream);
+    padding:0 .5rem;
+    font-size:10px;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    color:var(--teal-mid);
+    font-weight:600;
+  }
 
----
+  /* SKILLS */
+  .skills-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:var(--slate-light);
+    border:1px solid var(--slate-light);
+    margin-bottom:2.5rem;
+  }
+  .skill-cell{
+    background:var(--white);
+    padding:1.1rem 1rem;
+  }
+  .skill-cell .category{
+    font-size:10px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--slate-light);
+    font-weight:500;
+    margin-bottom:.65rem;
+  }
+  .skill-list{list-style:none;display:flex;flex-direction:column;gap:.35rem}
+  .skill-list li{
+    font-family:'DM Mono',monospace;
+    font-size:.78rem;
+    color:var(--slate-mid);
+  }
+  .skill-list li.primary{color:var(--teal-dark);font-weight:500}
 
-## 🛠️ Technical Toolkit
+  /* CONTACT */
+  .contact{
+    background:var(--slate);
+    color:var(--cream);
+    padding:1.75rem 2rem;
+    display:grid;
+    grid-template-columns:1fr auto;
+    align-items:center;
+    gap:2rem;
+    border-radius:3px;
+  }
+  .contact-title{
+    font-family:'DM Serif Display',serif;
+    font-size:1.5rem;
+    color:var(--teal-pale);
+    margin-bottom:.4rem;
+  }
+  .contact-sub{font-size:.82rem;color:var(--slate-light);font-weight:300;line-height:1.65;max-width:400px}
+  .contact-links{display:flex;flex-direction:column;gap:.6rem;text-align:right}
+  .contact-links a{
+    font-size:.82rem;
+    color:var(--teal-pale);
+    text-decoration:none;
+    font-family:'DM Mono',monospace;
+    transition:color .15s;
+  }
+  .contact-links a:hover{color:var(--white)}
 
-<h3 align="left">Data Processing & Analysis</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white">
-</p>
+  /* RESPONSIVE */
+  @media(max-width:680px){
+    .header{grid-template-columns:1fr;gap:1rem}
+    .header-meta{text-align:left}
+    .about{grid-template-columns:1fr;gap:1.25rem}
+    .about-divider{border-left:none;padding-left:0;border-top:1px solid rgba(255,255,255,.15);padding-top:1.25rem}
+    .projects{grid-template-columns:1fr}
+    .skills-grid{grid-template-columns:1fr 1fr}
+    .contact{grid-template-columns:1fr;gap:1rem}
+    .contact-links{text-align:left}
+    .name{font-size:2.6rem}
+  }
+</style>
+</head>
+<body>
+<div class="page">
 
-<h3 align="left">Databases & SQL</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white">
-</p>
+  <header class="header">
+    <div>
+      <p class="label-sm">Data Analyst — Sydney, AU</p>
+      <h1 class="name">Brian <em>Phu</em></h1>
+      <p class="tagline">I turn messy data into decisions. Former barista. Muay Thai practitioner. Supply chain obsessive.</p>
+    </div>
+    <div class="header-meta">
+      <span>Sydney, NSW</span>
+      <a href="mailto:brianphu2310@gmail.com">brianphu2310@gmail.com</a>
+      <a href="https://linkedin.com/in/brianphu2310">linkedin/brianphu2310</a>
+      <a href="https://github.com/brianphu2310">github/brianphu2310</a>
+    </div>
+  </header>
 
-<h3 align="left">Visualization & BI</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white">
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
-</p>
+  <div class="about">
+    <div class="about-item">
+      <div class="num">42</div>
+      <div class="desc">factories analyzed across 11 countries — Nike vs Adidas</div>
+    </div>
+    <div class="about-item about-divider">
+      <div class="num">117</div>
+      <div class="desc">UFC fighters. Stance × handedness. Real data, real patterns.</div>
+    </div>
+    <div class="about-item about-divider">
+      <div class="num">3+</div>
+      <div class="desc">end-to-end projects: scrape → model → deploy</div>
+    </div>
+  </div>
 
-<h3 align="left">Web & Deployment</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</p>
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker">
+      <span class="ticker-item">PostgreSQL</span>
+      <span class="ticker-item hi">OODA Framework</span>
+      <span class="ticker-item">Tableau</span>
+      <span class="ticker-item">Python</span>
+      <span class="ticker-item hi">Supply Chain Analysis</span>
+      <span class="ticker-item">HHI Analysis</span>
+      <span class="ticker-item">Web Scraping</span>
+      <span class="ticker-item hi">Statistical Modeling</span>
+      <span class="ticker-item">Pandas / NumPy</span>
+      <span class="ticker-item">NLP</span>
+      <span class="ticker-item hi">End-to-End Projects</span>
+      <span class="ticker-item">PostgreSQL</span>
+      <span class="ticker-item hi">OODA Framework</span>
+      <span class="ticker-item">Tableau</span>
+      <span class="ticker-item">Python</span>
+      <span class="ticker-item hi">Supply Chain Analysis</span>
+      <span class="ticker-item">HHI Analysis</span>
+      <span class="ticker-item">Web Scraping</span>
+      <span class="ticker-item hi">Statistical Modeling</span>
+      <span class="ticker-item">Pandas / NumPy</span>
+      <span class="ticker-item">NLP</span>
+      <span class="ticker-item hi">End-to-End Projects</span>
+    </div>
+  </div>
 
-<h3 align="left">Machine Learning</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-</p>
+  <p class="section-label">Projects</p>
 
----
+  <div class="projects">
+    <a class="proj-card" href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-FACTORIES-STRATERGY" target="_blank" rel="noopener">
+      <span class="proj-tag">Supply Chain</span>
+      <h2 class="proj-title">Nike vs Adidas — Global Factory Intelligence</h2>
+      <p class="proj-desc">Mapped 42 factories across 11 countries. Ran HHI concentration analysis to quantify production risk. Traced the strategic divergence between two brands with radically different manufacturing footprints.</p>
+      <p class="proj-finding">Adidas keeps domestic German factories at a cost premium. Nike has zero European production. Not an accident — a deliberate strategic divergence.</p>
+      <div class="proj-stack">
+        <span class="stack-pill">PostgreSQL</span>
+        <span class="stack-pill">Tableau</span>
+        <span class="stack-pill">OODA</span>
+        <span class="stack-pill">HHI</span>
+      </div>
+    </a>
+    <a class="proj-card" href="https://github.com/brianphu2310/Head-Barista-Coffee-Intelligence" target="_blank" rel="noopener">
+      <span class="proj-tag">Recommender System</span>
+      <h2 class="proj-title">Head Barista — Coffee Intelligence</h2>
+      <p class="proj-desc">Built from behind the counter. Customers kept asking the same questions — I realized intuition wasn't enough. Scraped, cleaned, and modeled flavor profiles into a real recommendation engine.</p>
+      <p class="proj-finding">The best recommenders aren't built by engineers. They're built by people who worked the domain.</p>
+      <div class="proj-stack">
+        <span class="stack-pill">Python</span>
+        <span class="stack-pill">NLP</span>
+        <span class="stack-pill">Scraping</span>
+      </div>
+    </a>
+    <a class="proj-card" href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE" target="_blank" rel="noopener">
+      <span class="proj-tag">Sports Analytics</span>
+      <h2 class="proj-title">UFC Stance × Handedness Intelligence</h2>
+      <p class="proj-desc">117 fighters. Analyzed how stance and hand dominance interact — a question coaches argue about constantly but rarely quantify. Applied statistical testing to separate signal from folklore.</p>
+      <p class="proj-finding">Most beliefs about southpaw advantage are survivorship bias. The numbers tell a different story.</p>
+      <div class="proj-stack">
+        <span class="stack-pill">Python</span>
+        <span class="stack-pill">Statistics</span>
+        <span class="stack-pill">Tableau</span>
+      </div>
+    </a>
+  </div>
 
-## 📈 GitHub Stats
+  <p class="section-label">Approach</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=brianphu2310&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=brianphu2310&theme=dark&hide_border=true&background=0D1117" width="48%">
-</p>
+  <div class="philosophy">
+    <span class="philosophy-tag">How I work</span>
+    <p class="philosophy-quote">"If I can't measure it, I don't trust my opinion on it."</p>
+    <p class="philosophy-sub">Every project starts with Observe → Orient → Decide → Act. Not because someone taught me the framework — because when I was making coffee, I learned that fast feedback loops beat slow deliberation. Data is just a way to run those loops faster and with less guessing.</p>
+  </div>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brianphu2310&layout=compact&theme=dark&hide_border=true&bg_color=0D1117" width="45%">
-</p>
+  <p class="section-label">Stack</p>
 
----
+  <div class="skills-grid">
+    <div class="skill-cell">
+      <div class="category">Databases</div>
+      <ul class="skill-list">
+        <li class="primary">PostgreSQL</li>
+        <li>SQL</li>
+        <li>Data modeling</li>
+      </ul>
+    </div>
+    <div class="skill-cell">
+      <div class="category">Visualization</div>
+      <ul class="skill-list">
+        <li class="primary">Tableau</li>
+        <li>Matplotlib</li>
+        <li>Seaborn</li>
+      </ul>
+    </div>
+    <div class="skill-cell">
+      <div class="category">Analysis</div>
+      <ul class="skill-list">
+        <li class="primary">Python</li>
+        <li>Pandas / NumPy</li>
+        <li>Statistics</li>
+      </ul>
+    </div>
+    <div class="skill-cell">
+      <div class="category">Methods</div>
+      <ul class="skill-list">
+        <li class="primary">OODA Loop</li>
+        <li>HHI Analysis</li>
+        <li>Web Scraping</li>
+      </ul>
+    </div>
+  </div>
 
-## 🏆 What Makes Me Different
+  <div class="contact">
+    <div>
+      <p class="contact-title">Open to opportunities.</p>
+      <p class="contact-sub">Data analyst roles in Sydney — supply chain, operations, or anywhere the data is messy and the stakes are real. I work best when I own a problem end-to-end.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:brianphu2310@gmail.com">brianphu2310@gmail.com</a>
+      <a href="https://linkedin.com/in/brianphu2310" target="_blank" rel="noopener">linkedin/brianphu2310</a>
+      <a href="https://github.com/brianphu2310" target="_blank" rel="noopener">github/brianphu2310</a>
+    </div>
+  </div>
 
-> *"I used to answer 'which coffee is better?' from behind a counter with nothing but instinct. Now I answer with data — and I can show my working."*
-
-| **Why me?** | **Proof** |
-|-------------|-----------|
-| **I don't just analyze — I build** | Deployed Streamlit apps (Coffee, UFC) + Tableau dashboards + SQL pipelines |
-| **I understand business context** | Used OODA framework for supply chain analysis — not just technical execution |
-| **I question assumptions** | Found that stance alone doesn't matter (p=0.34) but stance×handedness does (d=0.43) |
-| **I learn from every project** | "p-value without effect size is misleading — now I always report both" |
-
----
-
-## 📬 Let's Connect
-
-I'm actively looking for **Data Analyst Intern / Junior** opportunities where I can:
-- ✅ Build end-to-end data products
-- ✅ Work with modern stack (SQL, Python, Tableau, cloud)
-- ✅ Solve real business problems
-
-**📧 Email:** brianphu2310@gmail.com  
-**🔗 LinkedIn:** [linkedin.com/in/brianphu2310](https://linkedin.com/in/brianphu2310)  
-**📂 GitHub:** [github.com/brianphu2310](https://github.com/brianphu2310)
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer">
-</p>
+</div>
+</body>
+</html>
