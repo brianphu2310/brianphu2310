@@ -1,0 +1,25 @@
+<svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="200" fill="#ffffff" rx="4" stroke="#9FE1CB" stroke-width="1"/>
+  <rect width="280" height="4" fill="#085041" rx="4"/>
+
+  <rect x="16" y="20" width="103" height="18" fill="#E1F5EE" rx="2"/>
+  <text x="24" y="32" font-family="'Sora', Arial, sans-serif" font-size="9" font-weight="600" fill="#0F6E56" letter-spacing="1">SPORTS ANALYTICS</text>
+
+  <text x="16" y="62" font-family="Georgia, serif" font-size="15" fill="#2C2C2A">UFC Stance ×</text>
+  <text x="16" y="80" font-family="Georgia, serif" font-size="15" fill="#2C2C2A">Handedness Study</text>
+
+  <text x="16" y="104" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">117 fighters. Statistical testing</text>
+  <text x="16" y="120" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">on stance × hand dominance.</text>
+  <text x="16" y="136" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">Separating signal from folklore.</text>
+
+  <rect x="16" y="148" width="2" height="28" fill="#1D9E75"/>
+  <text x="24" y="160" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Southpaw advantage = survivorship</text>
+  <text x="24" y="173" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">bias. Numbers say otherwise.</text>
+
+  <rect x="16" y="183" width="40" height="13" fill="#F1EFE8" rx="2"/>
+  <text x="20" y="193" font-family="'Courier New', monospace" font-size="9" fill="#5F5E5A">Python</text>
+  <rect x="62" y="183" width="60" height="13" fill="#F1EFE8" rx="2"/>
+  <text x="66" y="193" font-family="'Courier New', monospace" font-size="9" fill="#5F5E5A">Statistics</text>
+  <rect x="128" y="183" width="40" height="13" fill="#F1EFE8" rx="2"/>
+  <text x="132" y="193" font-family="'Courier New', monospace" font-size="9" fill="#5F5E5A">Tableau</text>
+</svg>
