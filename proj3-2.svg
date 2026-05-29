@@ -1,0 +1,33 @@
+<svg width="280" height="260" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="260" fill="#ffffff" rx="5" stroke="#9FE1CB" stroke-width="1"/>
+  <rect width="280" height="5" fill="#085041" rx="5"/>
+  <rect y="4" width="280" height="1" fill="#085041"/>
+
+  <rect x="16" y="18" width="107" height="17" fill="#E1F5EE" rx="2"/>
+  <text x="22" y="30" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#0F6E56" letter-spacing="1">SPORTS ANALYTICS</text>
+
+  <text x="16" y="62" font-family="Georgia, serif" font-size="16" fill="#2C2C2A">UFC Stance ×</text>
+  <text x="16" y="81" font-family="Georgia, serif" font-size="16" fill="#2C2C2A">Handedness Study</text>
+
+  <line x1="16" y1="92" x2="264" y2="92" stroke="#E1F5EE" stroke-width="1"/>
+
+  <text x="16" y="110" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">Analyzed 117 fighters across UFC history.</text>
+  <text x="16" y="126" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">Chi-square tested stance × hand dominance</text>
+  <text x="16" y="142" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">interaction. Cross-referenced win rates,</text>
+  <text x="16" y="158" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">finish types, and weight classes to</text>
+  <text x="16" y="174" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">separate pattern from survivorship bias.</text>
+
+  <rect x="16" y="184" width="2.5" height="36" fill="#1D9E75"/>
+  <text x="26" y="197" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Southpaw advantage is real — but only</text>
+  <text x="26" y="211" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">in specific weight + experience bands.</text>
+  <text x="26" y="225" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Context collapses the folklore.</text>
+
+  <rect x="16" y="240" width="40" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="20" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">Python</text>
+  <rect x="62" y="240" width="62" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="66" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">Statistics</text>
+  <rect x="130" y="240" width="44" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="134" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">Tableau</text>
+  <rect x="180" y="240" width="54" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="184" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">Chi-sq</text>
+</svg>

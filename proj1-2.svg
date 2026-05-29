@@ -1,0 +1,41 @@
+<svg width="280" height="260" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- border + bg -->
+  <rect width="280" height="260" fill="#ffffff" rx="5" stroke="#9FE1CB" stroke-width="1"/>
+  <!-- top accent bar -->
+  <rect width="280" height="5" fill="#0F6E56" rx="5"/>
+  <rect y="4" width="280" height="1" fill="#0F6E56"/>
+
+  <!-- tag -->
+  <rect x="16" y="18" width="94" height="17" fill="#E1F5EE" rx="2"/>
+  <text x="22" y="30" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#0F6E56" letter-spacing="1">SUPPLY CHAIN</text>
+
+  <!-- title -->
+  <text x="16" y="62" font-family="Georgia, serif" font-size="16" fill="#2C2C2A">Nike vs Adidas —</text>
+  <text x="16" y="81" font-family="Georgia, serif" font-size="16" fill="#2C2C2A">Factory Intelligence</text>
+
+  <!-- divider -->
+  <line x1="16" y1="92" x2="264" y2="92" stroke="#E1F5EE" stroke-width="1"/>
+
+  <!-- desc line by line -->
+  <text x="16" y="110" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">Mapped 42 factories across 11 countries</text>
+  <text x="16" y="126" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">using PostgreSQL. Ran HHI concentration</text>
+  <text x="16" y="142" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">index to quantify production risk — Nike</text>
+  <text x="16" y="158" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">scores 0.18 vs Adidas 0.24, meaning Nike</text>
+  <text x="16" y="174" font-family="Arial, sans-serif" font-size="10.5" fill="#5F5E5A">is more geographically diversified.</text>
+
+  <!-- finding bar -->
+  <rect x="16" y="184" width="2.5" height="36" fill="#1D9E75"/>
+  <text x="26" y="197" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Adidas keeps German factories at a cost</text>
+  <text x="26" y="211" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">premium. Nike: zero European production.</text>
+  <text x="26" y="225" font-family="Arial, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Deliberate strategic divergence.</text>
+
+  <!-- stack pills -->
+  <rect x="16" y="240" width="66" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="20" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">PostgreSQL</text>
+  <rect x="88" y="240" width="44" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="92" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">Tableau</text>
+  <rect x="138" y="240" width="32" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="142" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">OODA</text>
+  <rect x="176" y="240" width="26" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="180" y="251" font-family="Courier New, monospace" font-size="9" fill="#5F5E5A">HHI</text>
+</svg>
