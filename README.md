@@ -45,8 +45,7 @@ Three things outside work that shaped how I analyze: making espresso (intuition 
 ---
 
 <p align="center">
-  [![Streamlit App](https://img.shields.io/badge/_Streamlit_App-Live-00C7A3?style=for-the-badge&logo=streamlit&logoColor=white)](https://ufcstanceandhandednessintelligence-qsdqucvqpj5hhwymhqbeji.streamlit.app)
-[![Tableau](https://img.shields.io/badge/_Tableau_Dashboard-Live-9B59EF?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)
-[![Colab](https://img.shields.io/badge/_Full_Analysis-Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)
-[![Kaggle Dataset](https://img.shields.io/badge/_Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/brianphu)
+  <a href="mailto:brianphu2310@gmail.com">brianphu2310@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/brianphu2310">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/brianphu2310">GitHub</a>
 </p>
