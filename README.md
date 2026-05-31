@@ -48,5 +48,8 @@ Three things outside work that shaped how I analyze: making espresso (intuition 
   <a href="mailto:brianphu2310@gmail.com">brianphu2310@gmail.com</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/brianphu2310">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://github.com/brianphu2310">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://delicate-manatee-7e78ab.netlify.app/#stack>Portfolio</a>
+  <a href="https://delicate-manatee-7e78ab.netlify.app/#stack
+">Portfolio Web</a>
+  
+  
 </p>
