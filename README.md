@@ -8,9 +8,9 @@
 
 ### About
 
-I work end-to-end — from scraping raw data to shipping something people can actually use. My framework is OODA: Observe, Orient, Decide, Act. I picked it up not from a textbook but from years of reading a room full of customers fast. Coffee taught me that slow thinking is a luxury most real problems can't afford.
+Legal bookkeeper and data migration assistant at a Sydney law firm, finishing a Bachelor of IT, and building a portfolio for **Data Analyst, Data Engineer and AML/compliance analyst** roles. I work end to end: collect and clean the data, model it, test it, and present it so a manager with no technical background can act on it. Framework: OODA (Observe, Orient, Decide, Act), picked up from years of reading a room full of customers as a barista.
 
-Three things outside work that shaped how I analyze: making espresso (intuition is not a substitute for measurement), training Muay Thai (patterns matter, but so does the one time the pattern breaks), and supply chain nerdery (risk is always more concentrated than it looks on a map).
+Outside work: espresso, Muay Thai and supply chain nerdery.
 
 ---
 
@@ -33,6 +33,15 @@ Three things outside work that shaped how I analyze: making espresso (intuition 
 | [UFC Stance & Handedness](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE) | Scraper design, cleaning, hypothesis tests and a KNN fighter recommender | Python, SciPy, Streamlit, Tableau, Power BI | [Run log](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/blob/main/docs/LIVE_RUN.md) · 96 tests · CI |
 
 **How to check my claims:** each repo has `docs/LIVE_RUN.md`, written by a GitHub Actions run, not by hand. Where a source blocked automated access (UFCStats, Perfect Daily Grind), the log shows 0 rows and I did not bypass the block. Data in the compliance and law-firm projects is synthetic, and the repos say so.
+
+---
+
+### Dashboards (Tableau and Power BI)
+
+<p align="center">
+  <a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="285" alt="UFC Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="285" alt="Nike vs Adidas Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="285" alt="Barista Power BI"/></a>
+</p>
+<p align="center"><sub>Power BI versions, written for non-technical readers. Tableau versions are in the same repos. Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
 
 ---
 
