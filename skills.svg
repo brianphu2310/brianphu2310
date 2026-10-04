@@ -9,7 +9,7 @@
   <text x="20" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">SQL · Data modeling</text>
 
   <text x="232" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">VISUALIZATION</text>
-  <text x="232" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">Tableau</text>
+  <text x="232" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">Tableau · Power BI</text>
   <text x="232" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">Matplotlib · Seaborn</text>
 
   <text x="447" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">ANALYSIS</text>
@@ -18,5 +18,5 @@
 
   <text x="662" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#B4B2A9" letter-spacing="1.5">METHODS</text>
   <text x="662" y="44" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#0F6E56">OODA Loop</text>
-  <text x="662" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">HHI · Web Scraping</text>
+  <text x="662" y="62" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#888780">HHI · Scraping · CI/tests</text>
 </svg>

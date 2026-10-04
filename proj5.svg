@@ -1,0 +1,27 @@
+<svg width="280" height="265" viewBox="0 0 280 265" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="265" fill="#ffffff" rx="5" stroke="#9FE1CB" stroke-width="1"/>
+  <rect width="280" height="5" fill="#0F6E56" rx="5"/>
+  <rect y="4" width="280" height="1" fill="#0F6E56"/>
+  <rect x="16" y="18" width="84" height="17" fill="#E1F5EE" rx="2"/>
+  <text x="22" y="30" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#0F6E56" letter-spacing="1">OPERATIONS</text>
+  <text x="16" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#2C2C2A">Law Firm Operations</text>
+  <text x="16" y="83" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#2C2C2A">Intelligence</text>
+  <line x1="16" y1="95" x2="264" y2="95" stroke="#E1F5EE" stroke-width="1"/>
+  <text x="16" y="113" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">Financial operations dashboard for a</text>
+  <text x="16" y="129" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">law firm: profit vs budget, matter</text>
+  <text x="16" y="145" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">and fee analysis, plus a decision</text>
+  <text x="16" y="161" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">simulator with goal-seek to test</text>
+  <text x="16" y="177" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">what it takes to hit a target.</text>
+  <rect x="16" y="188" width="2.5" height="42" fill="#1D9E75"/>
+  <text x="26" y="201" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Built on synthetic data modelled on</text>
+  <text x="26" y="216" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">real firm bookkeeping work. No client</text>
+  <text x="26" y="231" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">data. Live Streamlit app.</text>
+  <rect x="16" y="245" width="40" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="20" y="256" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5F5E5A">Python</text>
+  <rect x="62" y="245" width="57" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="66" y="256" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5F5E5A">Streamlit</text>
+  <rect x="125" y="245" width="40" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="129" y="256" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5F5E5A">Plotly</text>
+  <rect x="171" y="245" width="40" height="14" fill="#F1EFE8" rx="2"/>
+  <text x="175" y="256" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5F5E5A">pandas</text>
+</svg>
