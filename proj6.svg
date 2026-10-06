@@ -14,7 +14,7 @@
   <text x="16" y="177" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#5F5E5A">(9 tests).</text>
   <rect x="16" y="188" width="2.5" height="42" fill="#1D9E75"/>
   <text x="26" y="201" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">Synthetic data only. No scraping,</text>
-  <text x="26" y="216" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">by design. Repo being published.</text>
+  <text x="26" y="216" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-style="italic" fill="#0F6E56">by design. Tests and CI.</text>
   <rect x="16" y="245" width="40" height="14" fill="#F1EFE8" rx="2"/>
   <text x="20" y="256" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5F5E5A">Python</text>
   <rect x="62" y="245" width="40" height="14" fill="#F1EFE8" rx="2"/>
