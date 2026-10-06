@@ -41,6 +41,9 @@ Outside work: espresso, Muay Thai and supply chain nerdery.
 <p align="center">
   <a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="285" alt="UFC Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="285" alt="Nike vs Adidas Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="285" alt="Barista Power BI"/></a>
 </p>
+<p align="center">
+  <a href="https://github.com/brianphu2310/Regulartory_Change_Monitor"><img src="https://raw.githubusercontent.com/brianphu2310/Regulartory_Change_Monitor/main/docs/powerbi/regulatory-1-overview.png" width="440" alt="Regulatory Change Monitor Power BI"/></a>
+</p>
 <p align="center"><sub>Power BI versions, written for non-technical readers. Tableau versions are in the same repos. Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
 
 ---
