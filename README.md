@@ -36,15 +36,41 @@ Outside work: espresso, Muay Thai and supply chain nerdery.
 
 ---
 
-### Dashboards (Tableau and Power BI)
+### Dashboards
 
+Each analysis exists in **Power BI** (written for non-technical readers: every page states the question and the answer) and in **Tableau**. Click a project name for the repo.
+
+#### [UFC Stance & Handedness](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE) · Power BI (4 pages)
 <p align="center">
-  <a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="285" alt="UFC Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="285" alt="Nike vs Adidas Power BI"/></a>&nbsp;<a href="https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/tree/main/docs/powerbi"><img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="285" alt="Barista Power BI"/></a>
+<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="280" alt="ufc page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-2.png" width="280" alt="ufc page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-3.png" width="280" alt="ufc page 3"/>
+<br/>
+<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-4.png" width="280" alt="ufc page 4"/>
 </p>
+<p align="center"><sub>Tableau version</sub></p>
+<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-ufc.jpg" width="420" alt="Tableau"/></p>
+
+#### [Nike vs Adidas Supply Chain](https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN) · Power BI (4 pages)
 <p align="center">
-  <a href="https://github.com/brianphu2310/Regulartory_Change_Monitor"><img src="https://raw.githubusercontent.com/brianphu2310/Regulartory_Change_Monitor/main/docs/powerbi/regulatory-1-overview.png" width="440" alt="Regulatory Change Monitor Power BI"/></a>
+<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="280" alt="nike page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-2.png" width="280" alt="nike page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-3.png" width="280" alt="nike page 3"/>
+<br/>
+<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-4.png" width="280" alt="nike page 4"/>
 </p>
-<p align="center"><sub>Power BI versions, written for non-technical readers. Tableau versions are in the same repos. Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
+<p align="center"><sub>Tableau version</sub></p>
+<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-nike.jpg" width="420" alt="Tableau"/></p>
+
+#### [Head Barista Coffee Intelligence](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE) · Power BI (6 pages)
+<p align="center">
+<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="280" alt="barista page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-2.png" width="280" alt="barista page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-3.png" width="280" alt="barista page 3"/>
+<br/>
+<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-4.png" width="280" alt="barista page 4"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-5.png" width="280" alt="barista page 5"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-6.png" width="280" alt="barista page 6"/>
+</p>
+<p align="center"><sub>Tableau version</sub></p>
+<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-barista.jpg" width="420" alt="Tableau"/></p>
+
+#### [Regulatory Change Monitor](https://github.com/brianphu2310/Regulartory_Change_Monitor) · Power BI (overview page; synthetic data)
+<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Regulartory_Change_Monitor/main/docs/powerbi/regulatory-1-overview.png" width="640" alt="Regulatory Change Monitor overview"/></p>
+
+<p align="center"><sub>The AML/CTF suite and Law Firm Operations project are Streamlit apps (live links in the table above). Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
 
 ---
 
