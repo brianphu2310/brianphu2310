@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg" alt="Brian Phu — Data Analyst, Sydney AU" width="860"/>
+  <img src="header.svg" alt="Brian Phu — Data Analyst, Sydney. Animated banner with six floating project blocks." width="860"/>
 </p>
 
 <br/>

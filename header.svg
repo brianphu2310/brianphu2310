@@ -1,25 +1,30 @@
-<svg width="860" height="180" viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="180" fill="#0F6E56" rx="6"/>
-  <line x1="0" y1="60" x2="520" y2="60" stroke="#1D9E75" stroke-width="0.5" opacity="0.35"/>
-  <line x1="0" y1="120" x2="520" y2="120" stroke="#1D9E75" stroke-width="0.5" opacity="0.35"/>
-  <line x1="528" y1="0" x2="528" y2="180" stroke="#9FE1CB" stroke-width="0.6" opacity="0.3"/>
-  <line x1="700" y1="16" x2="700" y2="164" stroke="#1D9E75" stroke-width="0.5" opacity="0.35"/>
-
-  <text x="36" y="36" font-family="'Arial Black', Arial, sans-serif" font-size="10" font-weight="700" fill="#5DCAA5" letter-spacing="3">DATA ANALYST · DATA ENGINEERING · COMPLIANCE — SYDNEY</text>
-  <text x="34" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="400" fill="#E1F5EE">Brian Phu</text>
-  <text x="36" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9FE1CB" opacity="0.9">I build tested data projects, end to end.</text>
-  <text x="36" y="162" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#9FE1CB" opacity="0.6">Former barista · Muay Thai · Supply chain obsessive</text>
-
-  <text x="552" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#9FE1CB">6</text>
-  <text x="552" y="70" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5DCAA5" letter-spacing="1">PORTFOLIO PROJECTS</text>
-
-  <text x="552" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#9FE1CB">400+</text>
-  <text x="552" y="128" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5DCAA5" letter-spacing="1">AUTOMATED TESTS</text>
-
-  <text x="552" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#9FE1CB">1,011</text>
-  <text x="624" y="162" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5DCAA5" letter-spacing="1">LIVE UN ENTRIES</text>
-
-  <text x="716" y="52" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#E1F5EE" opacity="0.55">brianphu2310@gmail.com</text>
-  <text x="716" y="74" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#E1F5EE" opacity="0.55">linkedin/brian-phu-data-analyst</text>
-  <text x="716" y="96" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#E1F5EE" opacity="0.55">github/brianphu2310</text>
+<svg width="860" height="260" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B4F3F"/><stop offset="1" stop-color="#0F6E56"/></linearGradient></defs>
+<rect width="860" height="260" rx="8" fill="url(#g)"/>
+<line x1="0" y1="0" x2="0" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="43" y1="0" x2="43" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="86" y1="0" x2="86" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="129" y1="0" x2="129" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="172" y1="0" x2="172" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="215" y1="0" x2="215" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="258" y1="0" x2="258" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="301" y1="0" x2="301" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="344" y1="0" x2="344" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="387" y1="0" x2="387" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="430" y1="0" x2="430" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="473" y1="0" x2="473" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="516" y1="0" x2="516" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="559" y1="0" x2="559" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="602" y1="0" x2="602" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="645" y1="0" x2="645" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="688" y1="0" x2="688" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="731" y1="0" x2="731" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="774" y1="0" x2="774" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/><line x1="817" y1="0" x2="817" y2="260" stroke="#1D9E75" stroke-width=".4" opacity=".25"/>
+<text x="34" y="100" font-family="Georgia,'Times New Roman',serif" font-size="58" fill="#E1F5EE">Brian Phu</text>
+<text x="36" y="128" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#9FE1CB" opacity=".9">I build tested data projects, end to end.</text>
+<text x="36" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#9FE1CB" letter-spacing="2" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.28;.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>DATA ANALYST</text><text x="36" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#9FE1CB" letter-spacing="2" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.28;.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>DATA ENGINEERING</text><text x="36" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#9FE1CB" letter-spacing="2" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.28;.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>COMPLIANCE ANALYTICS</text>
+<text x="36" y="214" font-family="Arial,Helvetica,sans-serif" font-size="11.5" fill="#9FE1CB" opacity=".75">Sydney · SQL · Python · Power BI · Tableau · 6 projects with tests and CI</text>
+<text x="36" y="234" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#9FE1CB" opacity=".55">brianphu2310@gmail.com</text>
+<ellipse cx="440" cy="144" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="2.6s" begin="0.0s" repeatCount="indefinite"/></ellipse><ellipse cx="506" cy="126" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="2.95s" begin="-0.9s" repeatCount="indefinite"/></ellipse><ellipse cx="572" cy="144" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="3.3s" begin="-1.8s" repeatCount="indefinite"/></ellipse><ellipse cx="638" cy="126" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="3.65s" begin="0.0s" repeatCount="indefinite"/></ellipse><ellipse cx="704" cy="144" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="4.0s" begin="-0.9s" repeatCount="indefinite"/></ellipse><ellipse cx="770" cy="126" rx="22" ry="5" fill="#000" opacity=".18"><animate attributeName="rx" values="22;17;22" dur="4.35s" begin="-1.8s" repeatCount="indefinite"/></ellipse>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="2.6s" begin="0.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="440,84 466,97.0 440,110 414,97.0" fill="#9FE1CB"/><polygon points="414,97.0 440,110 440,136 414,123.0" fill="#5DCAA5"/><polygon points="466,97.0 440,110 440,136 466,123.0" fill="#1D9E75"/>
+<text x="440" y="166" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">AML/CTF</text></g><g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="2.95s" begin="-0.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="506,66 532,79.0 506,92 480,79.0" fill="#E1F5EE"/><polygon points="480,79.0 506,92 506,118 480,105.0" fill="#9FE1CB"/><polygon points="532,79.0 506,92 506,118 532,105.0" fill="#5DCAA5"/>
+<text x="506" y="148" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">Law Firm</text></g><g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="3.3s" begin="-1.8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="572,84 598,97.0 572,110 546,97.0" fill="#C7F0DD"/><polygon points="546,97.0 572,110 572,136 546,123.0" fill="#7FD8B4"/><polygon points="598,97.0 572,110 572,136 598,123.0" fill="#27A97E"/>
+<text x="572" y="166" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">Reg Monitor</text></g><g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="3.65s" begin="0.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="638,66 664,79.0 638,92 612,79.0" fill="#9FE1CB"/><polygon points="612,79.0 638,92 638,118 612,105.0" fill="#5DCAA5"/><polygon points="664,79.0 638,92 638,118 664,105.0" fill="#1D9E75"/>
+<text x="638" y="148" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">Nike·Adidas</text></g><g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4.0s" begin="-0.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="704,84 730,97.0 704,110 678,97.0" fill="#E1F5EE"/><polygon points="678,97.0 704,110 704,136 678,123.0" fill="#9FE1CB"/><polygon points="730,97.0 704,110 704,136 730,123.0" fill="#5DCAA5"/>
+<text x="704" y="166" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">Barista</text></g><g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4.35s" begin="-1.8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+<polygon points="770,66 796,79.0 770,92 744,79.0" fill="#C7F0DD"/><polygon points="744,79.0 770,92 770,118 744,105.0" fill="#7FD8B4"/><polygon points="796,79.0 770,92 770,118 796,105.0" fill="#27A97E"/>
+<text x="770" y="148" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#E1F5EE">UFC</text></g>
 </svg>
