@@ -36,6 +36,23 @@ Outside work: espresso, Muay Thai and supply chain nerdery.
 
 ---
 
+### Proof, not claims
+
+<p align="center"><img src="pipeline.svg" alt="Pipeline: source, ingest, validate, model, present, prove" width="860"/></p>
+
+| Project | CI | What it found or proves |
+|---|---|---|
+| [AML/CTF Compliance Suite](https://github.com/brianphu2310/AML-CTF_Analyst) | [![CI](https://github.com/brianphu2310/AML-CTF_Analyst/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/AML-CTF_Analyst/actions) | 1,011 UN sanctions entries fetched live in CI and screened by name; 206 tests · [run log](https://github.com/brianphu2310/AML-CTF_Analyst/blob/main/docs/LIVE_RUN.md) |
+| [Law Firm Operations Intelligence](https://github.com/brianphu2310/Law_Firm_Operations_Intelliigence) | [![CI](https://github.com/brianphu2310/Law_Firm_Operations_Intelliigence/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/Law_Firm_Operations_Intelliigence/actions) | Profit vs budget with a decision simulator and goal-seek (synthetic data) |
+| [Regulatory Change Monitor](https://github.com/brianphu2310/Regulartory_Change_Monitor) | [![CI](https://github.com/brianphu2310/Regulartory_Change_Monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/Regulartory_Change_Monitor/actions) | 200 synthetic changes: 69 high impact, 54 open actions, 16 overdue; 9 tests |
+| [Nike vs Adidas Supply Chain](https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN) | [![CI](https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/actions) | 42 factories in 11 countries, HHI concentration risk; 38 tests |
+| [Head Barista Coffee Intelligence](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE) | [![CI](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/actions) | Live scrape of public sources (Wikipedia 13 rows, Healthline 3); one blocked source logged, not bypassed; 59 tests · [run log](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/blob/main/docs/LIVE_RUN.md) |
+| [UFC Stance & Handedness](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE) | [![CI](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/actions/workflows/ci.yml/badge.svg)](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/actions) | 23 of 117 fighters are right-handed southpaws; mean win rate 74.3% vs 70.2% for orthodox + right-handed; 96 tests · [run log](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/blob/main/docs/LIVE_RUN.md) |
+
+*The CI badges are live from GitHub Actions. Data in the compliance, law-firm and regulatory projects is synthetic and labelled so; where a source blocked automated access (UFCStats, Perfect Daily Grind) the log shows 0 rows and I did not bypass it.*
+
+---
+
 ### Screenshots
 
 <table>
