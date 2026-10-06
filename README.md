@@ -36,41 +36,13 @@ Outside work: espresso, Muay Thai and supply chain nerdery.
 
 ---
 
-### Dashboards
+### Screenshots
 
-Each analysis exists in **Power BI** (written for non-technical readers: every page states the question and the answer) and in **Tableau**. Click a project name for the repo.
+<table>
+<tr><td align="center" width="33%"><a href="https://github.com/brianphu2310/AML-CTF_Analyst"><img src="https://raw.githubusercontent.com/brianphu2310/AML-CTF_Analyst/main/screenshots/01-overview.png" width="290" alt="AML/CTF Compliance Suite"/></a><br/><b><a href="https://github.com/brianphu2310/AML-CTF_Analyst">AML/CTF Compliance Suite</a></b><br/><sub>Streamlit</sub></td><td align="center" width="33%"><a href="https://github.com/brianphu2310/Law_Firm_Operations_Intelliigence"><img src="https://raw.githubusercontent.com/brianphu2310/Law_Firm_Operations_Intelliigence/main/docs/screenshots/03-overview.png" width="290" alt="Law Firm Operations Intelligence"/></a><br/><b><a href="https://github.com/brianphu2310/Law_Firm_Operations_Intelliigence">Law Firm Operations Intelligence</a></b><br/><sub>Streamlit</sub></td><td align="center" width="33%"><a href="https://github.com/brianphu2310/Regulartory_Change_Monitor"><img src="https://raw.githubusercontent.com/brianphu2310/Regulartory_Change_Monitor/main/docs/powerbi/regulatory-1-overview.png" width="290" alt="Regulatory Change Monitor"/></a><br/><b><a href="https://github.com/brianphu2310/Regulartory_Change_Monitor">Regulatory Change Monitor</a></b><br/><sub>Power BI</sub></td></tr><tr><td align="center" width="33%"><a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN"><img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="290" alt="Nike vs Adidas Supply Chain"/></a><br/><b><a href="https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN">Nike vs Adidas Supply Chain</a></b><br/><sub>Power BI + Tableau</sub></td><td align="center" width="33%"><a href="https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE"><img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="290" alt="Head Barista Coffee Intelligence"/></a><br/><b><a href="https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE">Head Barista Coffee Intelligence</a></b><br/><sub>Power BI + Tableau</sub></td><td align="center" width="33%"><a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE"><img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="290" alt="UFC Stance & Handedness"/></a><br/><b><a href="https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE">UFC Stance & Handedness</a></b><br/><sub>Power BI + Tableau</sub></td></tr>
+</table>
 
-#### [UFC Stance & Handedness](https://github.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE) · Power BI (4 pages)
-<p align="center">
-<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-1.png" width="280" alt="ufc page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-2.png" width="280" alt="ufc page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-3.png" width="280" alt="ufc page 3"/>
-<br/>
-<img src="https://raw.githubusercontent.com/brianphu2310/UFC_STANCE_AND_HANDEDNESS_INTELLIGENCE/main/docs/powerbi/ufc-4.png" width="280" alt="ufc page 4"/>
-</p>
-<p align="center"><sub>Tableau version</sub></p>
-<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-ufc.jpg" width="420" alt="Tableau"/></p>
-
-#### [Nike vs Adidas Supply Chain](https://github.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN) · Power BI (4 pages)
-<p align="center">
-<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-1.png" width="280" alt="nike page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-2.png" width="280" alt="nike page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-3.png" width="280" alt="nike page 3"/>
-<br/>
-<img src="https://raw.githubusercontent.com/brianphu2310/NIKE-AND-ADIDAS-SUPPLY-CHAIN/main/docs/powerbi/nike-4.png" width="280" alt="nike page 4"/>
-</p>
-<p align="center"><sub>Tableau version</sub></p>
-<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-nike.jpg" width="420" alt="Tableau"/></p>
-
-#### [Head Barista Coffee Intelligence](https://github.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE) · Power BI (6 pages)
-<p align="center">
-<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-1.png" width="280" alt="barista page 1"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-2.png" width="280" alt="barista page 2"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-3.png" width="280" alt="barista page 3"/>
-<br/>
-<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-4.png" width="280" alt="barista page 4"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-5.png" width="280" alt="barista page 5"/>&nbsp;<img src="https://raw.githubusercontent.com/brianphu2310/HEAD-BARISTA-COFFEE-INTELLIGENCE/main/docs/powerbi/barista-6.png" width="280" alt="barista page 6"/>
-</p>
-<p align="center"><sub>Tableau version</sub></p>
-<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Portfolio-web/main/img/tab-barista.jpg" width="420" alt="Tableau"/></p>
-
-#### [Regulatory Change Monitor](https://github.com/brianphu2310/Regulartory_Change_Monitor) · Power BI (overview page; synthetic data)
-<p align="center"><img src="https://raw.githubusercontent.com/brianphu2310/Regulartory_Change_Monitor/main/docs/powerbi/regulatory-1-overview.png" width="640" alt="Regulatory Change Monitor overview"/></p>
-
-<p align="center"><sub>The AML/CTF suite and Law Firm Operations project are Streamlit apps (live links in the table above). Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
+<p align="center"><sub>One screenshot per project; more pages and the Tableau versions are in each repo. Data in the compliance, law-firm and regulatory projects is synthetic. Portfolio site: <a href="https://delicate-manatee-7e78ab.netlify.app">delicate-manatee-7e78ab.netlify.app</a></sub></p>
 
 ---
 
